@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Trocchi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-image: url('blogpage.jpg');
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.navlist{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.navlist li{
+    list-style: none;
+    padding: 30px;
+}
+
+.navlist .navitem a{
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+.navlist .navitem a:hover{
+    color: white;
+}
+
+/* nav itna hi tha */
+
+.blogsPage{
+    display: flex;
+    flex-direction: column;
+    /* padding: 30px; */
+    /* align-items: center; */
+    margin-top: 20px;
+}
+
+.blogsPage h1{
+    position: relative;
+    margin: 0;
+    margin-bottom: 60px;
+    margin-top: 40px;
+    width: 400px;
+    left: 45%;
+    font-family: 'Trocchi', serif;
+    font-size: 40px;
+    color: white;
+}
+
+
+.blogsuploadeddescription{
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.newblogbox{
+    width: 1100px;
+    display: flex;
+    /* padding: 20px; */
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+.newblogbox .summaryblog p{
+    font-family: 'Dancing Script', cursive;
+    margin: 0;
+    font-size: 25px;
+}
+
+.newblogbox .summaryblog a{
+    font-family: 'Dancing Script', cursive;
+    margin: 0;
+    font-size: 25px;
+}
+
+.newblogbox h2{
+    margin: 0;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Courgette', cursive;
+}
+
+.summaryblog{
+    display: flex;
+    flex-direction: column;
+}
+
+/* .blogsuploaded{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* .blogsuploaded img{
+    width: 200px;
+    height: 300px;
+} */
+
+#imageblogs{
+    transition: all 0.5s ease-in-out;
+}
+
+#imageblogs:hover{
+    transform: scale(1.1);
+  }

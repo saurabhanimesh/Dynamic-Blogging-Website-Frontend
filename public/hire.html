@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hire - Sneha Vikash</title>
+    <link rel="styleSheet" href="hirestyle.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar" id="navbarid">
+            <div class="navlist" id="navid">
+                <li class="navitem" id="home"><a href='/'>Home</a></li>
+                <li class="navitem" id="myblog"><a href='/blog'>Blog</a></li>
+                <li class="navitem" id="shop"><a href='/shop'>Shop</a></li>
+                <li class="navitem" id="bookme"><a href='/hire'>Hire</a></li>
+            </div>
+            <!-- <div class="burger" id="burger">
+            <div class="line" id="line"></div>
+            <div class="line" id="line2"></div>
+            <div class="line" id="line3"></div>
+        </div> -->
+        </nav>
+        <div class="hireformbox">
+            <form method="POST" action="/hire" class="hireform">
+                <input type="name" name="clientname" id="clientname" placeholder="Name">
+                <input type="email" name="clientemail" id="clientemail" placeholder="Email Address">
+                <input type="number" name="clientnumber" id="clientnumber" placeholder="Phone Number">
+                <!-- <input type="text" name="clienttext" id="clienttext" placeholder="Purpose For Hiring"> -->
+                <textarea name="purpose" id="clienttext" cols="30" rows="10"  placeholder="Purpose For Hiring"></textarea>
+                <button class="hiresubmit">Submit</button>
+            </form>
+        </div>
+    </header>
+</body>
+</html>

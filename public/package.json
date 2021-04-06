@@ -1,0 +1,15 @@
+{
+  "name": "snehablogwebsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sbbackend.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "firebase": "^8.2.1"
+  }
+}

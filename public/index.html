@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Sneha Vikash</title>
+    <link rel="styleSheet" href="sblogstyle.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-analytics.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar" id="navbarid">
+            <div class="navlist" id="navid">
+                <li class="navitem" id="home"><a href='/'>Home</a></li>
+                <li class="navitem" id="myblog"><a href='/blog'>Blog</a></li>
+                <li class="navitem" id="shop"><a href='/shop'>Shop</a></li>
+                <li class="navitem" id="bookme"><a href='/hire'>Hire</a></li>
+                <li class="navitem" id="aboutme"><a href=#about>About</a></li>
+            </div>
+            <!-- <div class="burger" id="burger">
+            <div class="line" id="line"></div>
+            <div class="line" id="line2"></div>
+            <div class="line" id="line3"></div>
+        </div> -->
+        </nav>
+
+        <section class="homescreen">
+            <div class="mainquote">
+                <p>Rebel, To Achieve Your Dreams.</p>
+            </div>
+            <div class="mainsign">
+                <img src="logo.png" alt="Sneha Vikash">
+            </div>
+        </section>
+    </header>
+    
+    <section class="blogsec">
+        <div class="blogbox" data-aos="fade-down" data-aos-offset="200" data-aos-delay="10" data-aos-duration="1000"
+            data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-anchor-placement="top-center">
+            <h1 class="latestblogtitle">My Latest Blogs</h1>
+            <p class="blogquote">Opportunities Don’t Happen, You Create Them</p>
+            <div class="bloghomepage">
+                <div class="bloghomepageimages">
+                    <div class="latestblogimage1" data-aos="flip-right" data-aos-offset="0" data-aos-delay="10"
+                        data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-anchor-placement="top-center">
+                        <img loading = "lazy" src="b1.jpg" alt="Latest Blog1">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate illo doloremque sapiente
+                            hic obcaecati blanditiis maxime excepturi nesciunt. Nam ducimus consequuntur eius iure amet
+                            perferendis ipsa cum, architecto delectus temporibus?</p>
+                        <!-- yeha pe aayega latest blog ka short form....server se -->
+                    </div>
+                    <div class="latestblogimage2" data-aos="slide-up" data-aos-offset="0" data-aos-delay="10"
+                        data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-anchor-placement="top-center">
+                        <img loading = "lazy" src="b2.jpg" alt="Latest Blog2">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate illo doloremque sapiente
+                            hic obcaecati blanditiis maxime excepturi nesciunt. Nam ducimus consequuntur eius iure amet
+                            perferendis ipsa cum, architecto delectus temporibus?</p>
+                        <!-- yeha pe aayega latest blog ka short form....server se -->
+                    </div>
+                    <div class="latestblogimage3" data-aos="flip-left" data-aos-offset="0" data-aos-delay="10"
+                        data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-anchor-placement="top-center">
+                        <img loading = "lazy" src="b3.jpg" alt="Latest Blog3">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate illo doloremque sapiente
+                            hic obcaecati blanditiis maxime excepturi nesciunt. Nam ducimus consequuntur eius iure amet
+                            perferendis ipsa cum, architecto delectus temporibus?</p>
+                        <!-- yeha pe aayega latest blog ka short form....server se -->
+                    </div>
+                    <!-- ye teeno images update karne hai bad me backend se -->
+                </div>
+                <a href="" class="viewmoreblog">View More</a>
+            </div>
+            <!-- <img src="myblog.jpg" alt="blog"> -->
+        </div>
+    </section>
+
+    <section class="shopsec">
+        <div class="shopbox" data-aos="fade-down" data-aos-offset="200" data-aos-delay="10" data-aos-duration="1000"
+        data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-anchor-placement="top-center">
+            <h1 class="shopheading">My Latest Creation</h1>
+            <div class="homebookdetail">
+                <img loading = "lazy" src="book1.jpeg" alt="Latest Book">
+                <div class="shopnowhome">
+                    <p>This book would take you to a pool of emotions, it will make you see the light that makes itself felt
+                    only when darkness prevails. Every page that you turn will be a rollercoaster where you might find
+                    yourself engulfed by the darkness and chaos but as Life goes on, this book too shall continue to
+                    take you to its end.</p>
+                    <button class="shopnowlink">Shop Now</button>
+                </div>
+                <!-- shopnowhome pura hamesa server se update wala chiz hai -->
+            </div>
+        </div>
+    </section>
+
+    <section class="eshopsec" id="about">
+        <div class="eshopbox" data-aos="fade-down" data-aos-offset="200" data-aos-delay="10" data-aos-duration="1000"
+        data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-anchor-placement="top-center">
+            <h1 class="eshopheading">About</h1>
+            <div class="ehomebookdetail">
+                <img loading = "lazy" src="aboutpic.jpg" alt="Latest Book">
+                <div class="eshopnowhome">
+                    <p>Sneha Vikash is a poetess at heart. Popularly known as .RD. She has written numerous
+                        poems and performed spoken words. She has a creative mind and is proud of being a Feminist. 
+                        She works for She speaks for the change which is a forum meant only for females. She also
+                        has recently published her first poetry book titled 'LIVING CHAOS'. She believes that each
+                        one of us are actually living through some chaos but usually fail to acknowledge it.
+                        She urges her readers to read their choas and accept its presence. She says, "Let's Live the Chaos"   
+                        and totally believes on it.</p>
+                </div>
+                <!-- shopnowhome pura hamesa server se update wala chiz hai -->
+            </div>
+        </div>
+    </section>
+    <div class="loader-wrapper">
+        <span class="loader"><span class="loader-inner"></span></span>
+      </div>
+      <script>
+          $(window).on("load",function(){
+            $(".loader-wrapper").fadeOut("slow");
+          });
+      </script>
+    <script src="sblogbrain.js"></script>
+    <script src="sblogbrain2.js"></script>
+</body>
+</html>

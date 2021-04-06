@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Trocchi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-image: url('hire.jpg');
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.navlist{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.navlist li{
+    list-style: none;
+    padding: 30px;
+}
+
+.navlist .navitem a{
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+.navlist .navitem a:hover{
+    color: white;
+}
+
+.hireformbox{
+    padding: 20px;
+    top: 80px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 500px;
+    width: 900px;
+}
+
+.hireform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hireform input{
+    margin-bottom: 55px;
+    background: none;
+    outline: none;
+    border: none;
+    width: 200px;
+    font-family: 'Zilla Slab', serif;
+    font-size: 13px;
+    color: white;
+}
+
+
+::placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: white;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+   color: white;
+  }
+
+#clienttext{
+    margin-bottom: 55px;
+    background: none;
+    outline: none;
+    border: none;
+    height: 60px;
+    width: 200px;
+    font-family: 'Zilla Slab', serif;
+    font-size: 13px;
+    color: white;
+}
+
+.hiresubmit{
+    font-family: 'Zilla Slab', serif;
+    font-size: 13px;
+    color: white;
+    background: none;
+    outline: none;
+    height: 30px;
+    width: 100px;
+}
